@@ -1,0 +1,18 @@
+
+".container" : {
+  	backgroundColor: '#efefef'
+}
+
+"#itemMenuContainer" : {
+	height: 75,
+	color: '#e2e2e2'
+}
+
+".addsItemMenu": {
+	height: 25,
+	width: Ti.UI.FILL
+}
+
+"#itemsMenu": {
+	
+}
