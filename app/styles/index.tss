@@ -1,16 +1,10 @@
-".container": {
+".container" : {
 	backgroundColor:"white"
 }
 
-"Label": {
+"Label" : {
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
 	color: "#000"
 }
 
-"#MainView": {
-	backgroundColor: '#e2e2e2',
-	font: {
-		fontSize: 12
-	}
-}

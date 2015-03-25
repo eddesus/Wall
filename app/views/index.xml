@@ -1,5 +1,5 @@
 <Alloy>
 	<Window class="container">
-		<Require src="Menu" id="MainView"></Require>
+		<Require type="view" src="Menu"></Require>
 	</Window>
 </Alloy>

@@ -9,7 +9,7 @@
     <copyright>not specified</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
-    <navbar-hidden>false</navbar-hidden>
+    <navbar-hidden>true</navbar-hidden>
     <analytics>true</analytics>
     <guid>84a52447-693b-478d-8fea-f2add8d521e2</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>

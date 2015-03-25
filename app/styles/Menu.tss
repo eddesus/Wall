@@ -3,16 +3,49 @@
   	backgroundColor: '#efefef'
 }
 
-"#itemMenuContainer" : {
-	height: 75,
-	color: '#e2e2e2'
+"#topMenu" : {
+	top: 64,
+	height: 80,
+	width: Ti.UI.FILL
 }
 
-".addsItemMenu": {
+"#itemMenuContainer" : {
+	height: 100,
+	color: '#e2e2e2'	
+}
+
+".titleEscuela" : {
+	top: 20,
+	font: {
+		fontSize: 24
+	},
+	color: 'blue'
+}
+
+"#logoMenu" : {
+	width: 80,
+	height: 80
+}
+
+".addsItemMenu" : {
 	height: 25,
 	width: Ti.UI.FILL
 }
 
-"#itemsMenu": {
+"#itemsMenu" : {
 	
+}
+
+".separador" : {
+	backgroundColor: '#3a3a3a',
+	height: 1
+}
+
+".labelMenu" : {
+	color: '#333',
+	font: {
+		fontSize: 22
+	},
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	right: 16
 }

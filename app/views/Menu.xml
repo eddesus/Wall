@@ -1,21 +1,27 @@
 <Alloy>
-	<View class="container">
-		<Templates>
-			<ItemTemplate name="itemTemplate">
-				<View id="itemMenuContainer" layout="vertical">
-					<View class="addsItemMenu" layout="horizontal">
-						<Label bindId="buget"></Label>
-					</View>
-					<Label bindId="itemMenuLabel"></Label>
-				</View>	
-			</ItemTemplate>
-		</Templates>
+	<View class="container" layout="vertical">
+		<View id="topMenu" layout="horizontal">
+			
+			<Label class="titleEscuela">Universidad Anahuac de Xalapa</Label>
+		</View>
 		<ListView id="itemsMenu" defaultItemTemplate="itemTemplate">
+			<Templates>
+				<ItemTemplate name="itemTemplate">
+					<View id="itemMenuContainer" layout="vertical">
+						<View class="addsItemMenu" layout="horizontal">
+							<Label bindId="buget"></Label>
+						</View>
+						<Label bindId="itemMenuLabel" class="labelMenu"></Label>	
+						<View class="separador">
+						</View>				
+					</View>
+				</ItemTemplate>
+			</Templates>
 			<ListSection>
-				<ListItem itemMenuLabel:text="nuevos"> </ListItem>
-				<ListItem itemMenuLabel:text="publicar"> </ListItem>
-				<ListItem itemMenuLabel:text="obtener más"> </ListItem>
-			</ListSection>	
+				<ListItem itemMenuLabel:text="nuevos"></ListItem>
+				<ListItem itemMenuLabel:text="publicar"></ListItem>
+				<ListItem itemMenuLabel:text="obtener más"></ListItem>
+			</ListSection>
 		</ListView>
 	</View>
 </Alloy>
