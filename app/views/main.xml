@@ -1,0 +1,5 @@
+<Alloy>
+	<View class="timeline">
+		<Label>linea de tiempo</Label>
+	</View>
+</Alloy>

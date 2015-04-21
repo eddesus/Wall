@@ -1,10 +1,31 @@
 ".container" : {
-	backgroundColor:"white"
+	navBarHidden: true,
+	backgroundColor:"white",
 }
 
-"Label" : {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+"#movableview" : {
+	zIndex: 3
 }
 
+"#navview" : {
+	top: 0,
+	left: 0,
+	zIndex: 3,
+	height: 48,
+	width: Ti.Platform.displayCaps.platformWidth,
+	backgroundColor: '#F00'
+}
+
+"#shadowview" : {
+	shadowColor:"black",
+    shadowOffset:{x:"0",y:"0"},
+    shadowRadius:"5"
+}
+
+"#menuButton" : {
+	width: 32,
+	height: 32,
+	top: 8,
+	left: 0,
+	backgroundImage: '/menu.png'
+}

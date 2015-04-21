@@ -1,12 +1,20 @@
 
-".container" : {
-  	backgroundColor: '#efefef'
+".containerMenu" : {
+	layout: 'vertical',
+	top: 0,
+	left: 0,
+  	backgroundColor: '#efefef',
+  	zIndex: 2,
+  	width: 250
 }
 
 "#topMenu" : {
-	top: 64,
-	height: 80,
-	width: Ti.UI.FILL
+	layout: 'horizontal',
+	top: 0,
+	left: 0,
+	height: Titanium.UI.SIZE,
+	width: 250,
+	backgroundColor: '#c0c0c0'
 }
 
 "#itemMenuContainer" : {
@@ -15,16 +23,21 @@
 }
 
 ".titleEscuela" : {
-	top: 20,
+	left: 8,
+	width: 170,
+	height: 80,
 	font: {
-		fontSize: 24
+		fontSize: 18
 	},
 	color: 'blue'
 }
 
 "#logoMenu" : {
-	width: 80,
-	height: 80
+	top: 8,
+	left: 8,
+	width: 64,
+	height: 64,
+	backgroundColor: '#F000'
 }
 
 ".addsItemMenu" : {
