@@ -1,5 +1,0 @@
-<Alloy>
-	<Window class="timeline" onSwipe="swipeWindow">
-		<Label>linea de tiempo</Label>
-	</Window>
-</Alloy>
