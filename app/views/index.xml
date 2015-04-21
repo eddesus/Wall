@@ -1,5 +1,15 @@
 <Alloy>
 	<Window class="container">
-		<Require type="view" src="Menu"></Require>
+		<View id="containerview">
+			<Require type="view" src="Menu"></Require>
+			<View id="movableview">
+				<View id="navview">
+					<Button id="menuButton"></Button>	
+				</View>
+				<View id="shadowview">
+					<Require type="view" src="main"></Require>
+				</View>	
+			</View>
+		</View>
 	</Window>
 </Alloy>
