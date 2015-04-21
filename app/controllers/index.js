@@ -3,3 +3,6 @@ function doClick(e) {
 }
 
 $.index.open();
+
+var main=Alloy.createController('main').getView();
+main.open();
