@@ -1,0 +1,11 @@
+<Alloy>
+	<View class="detailcontainer">
+		<View id="statusbar">
+			<Button id="backButton" onClick="closeDetail"></Button>
+		</View>
+		<View id="imagen">
+		</View>
+		<View id="texto">
+		</View>	
+	</View>
+</Alloy>

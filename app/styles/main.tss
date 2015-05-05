@@ -1,7 +1,9 @@
 
 ".timeline" : {
+  top: 48,
+  left: 0,
   backgroundColor: '#FFF',
-  zIndex: 10,
+  zIndex: 5,
   width: Ti.Platform.displayCaps.platformWidth,
   height: Ti.Platform.displayCaps.platformHeight
 }
