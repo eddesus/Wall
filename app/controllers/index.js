@@ -36,14 +36,14 @@ $.movableview.addEventListener('touchend', function(e) {
 		buttonPressed = false;
 		return;
 	}
-	if ($.movableview.left >= 150 && touchRightStarted) {
+	if ($.movableview.left >= 250 && touchRightStarted) {
 		direction = "right";
 		Ti.API.info('hacia la derecha');
 		//$.leftButton.touchEnabled = false;
 		$.movableview.animate(animateRight);
 		hasSlided = true;
 	}
-	else if ($.movableview.left <= -150 && touchLeftStarted) {
+	else if ($.movableview.left <= -250 && touchLeftStarted) {
 		direction = "left";
 		Ti.API.info('hacia la izquierda');
 		//$.rightButton.touchEnabled = false;
@@ -70,6 +70,7 @@ $.movableview.addEventListener('touchmove', function(e) {
 		y : e.y
 	}, $.containerview);
 	var newLeft = coords.x - touchStartX;
+	Ti.API.info(newLeft);
 	if ((touchRightStarted && newLeft <= 250 && newLeft >= 0) /*|| (touchLeftStarted && newLeft <= 0 && newLeft >= -250)*/) {
 		$.movableview.left = newLeft;
 	}
@@ -95,13 +96,13 @@ $.movableview.addEventListener('touchmove', function(e) {
 		});
 	}
 	// Uncomment to use with two views left and right
-	/*else  if (newLeft < -5 && !touchRightStarted && !touchLeftStarted) {
+	else  if (newLeft < -5 && !touchRightStarted && !touchLeftStarted) {
 		touchLeftStarted = true;
 		Ti.App.fireEvent("sliderToggled", {
 			hasSlided : false,
 			direction : "left"
 		});
-	}*/
+	}
 });
 
 
