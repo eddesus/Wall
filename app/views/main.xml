@@ -1,5 +1,5 @@
 <Alloy>
 	<View class="timeline">
-		<Label>linea de tiempo</Label>
+		<Require type="widget" src="com.prodz.tidynamicgrid" id="tdg"></Require>
 	</View>
 </Alloy>

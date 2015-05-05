@@ -13,7 +13,7 @@
 	zIndex: 3,
 	height: 48,
 	width: Ti.Platform.displayCaps.platformWidth,
-	backgroundColor: '#F00'
+	backgroundColor: '#F2F2F2'
 }
 
 "#shadowview" : {

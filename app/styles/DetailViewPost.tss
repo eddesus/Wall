@@ -1,0 +1,30 @@
+
+".detailcontainer" : {
+  
+}
+
+"#statusbar" : {
+	top: 0,
+	left: 0,
+	height: 48,
+	width:Ti.UI.FILL
+}
+
+"#image" : {
+	height: 200,
+	width: Ti.UI.FILL
+}
+
+"#text" : {
+	font: {
+		fontSize: 14
+	}
+}
+
+"#backButton" : {
+	top: 8,
+	left: 8,
+	width: 32,
+	height: 32,
+	backgroundImage: '/images/backButton.png'
+}
